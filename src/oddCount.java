@@ -12,7 +12,7 @@ public class oddCount {
             }
             return counter;
         }
-        else{
+        else {
             return 0;
         }
     }

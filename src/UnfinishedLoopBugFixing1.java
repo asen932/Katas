@@ -15,6 +15,7 @@ public class UnfinishedLoopBugFixing1 {
         List list = new ArrayList<>();
 
         for(int count = 1; count <= number; count++) // added coint++ to this line to fix the infinite loop
+
         {
             list.add(count);
         }
